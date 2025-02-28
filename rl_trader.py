@@ -278,7 +278,7 @@ def play_one_episode(agent, env, is_train):
 if __name__ == '__main__':
     models_folder = 'rl_trader_models'
     rewards_folder = 'rl_trader_rewards'
-    num_episodes = 3        # Pour tester plus rapidement
+    num_episodes = 2000
     batch_size = 32
     initial_investment = 20000
 
